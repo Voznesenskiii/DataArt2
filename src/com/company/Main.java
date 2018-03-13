@@ -7,7 +7,7 @@ public class Main {
 	// write your code here
 
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter some number: ");
+        System.out.println("Enter some  number: ");
         int input = in.nextInt();
         System.out.println("Your input is: " + input);
 
@@ -20,6 +20,7 @@ public class Main {
 
     public static int Sum (int a, int b){
         int c = a+b;
+
 
         return c;
     }
